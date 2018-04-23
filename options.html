@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Test Extension Options</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<form id="form" method="post" class="basic-grey">
+    <!--<h1>Chrome github integration-->
+        <!--<span>Configure extension settings below</span>-->
+    <!--</h1>-->
+
+    <label>
+        Jiira domain (for example: <code>https://jiira.example.com</code>)</span>
+        <input id="jiira-host" type="text" placeholder="Type domain name" />
+    </label>
+
+    <label>
+        <input type="checkbox" id="ticket-module" value="1" />
+        Replace ticket number in pull requests with link to jiira tasks.
+    </label>
+
+    <label>
+        <input type="checkbox" id="link-module" value="1" />
+        Use link to ticket as a default comment for pull requests.
+    </label>
+
+    <label>
+        <input type="checkbox" id="wip-module" value="1" />
+        Block pull requests if <code>wip</code> or <code>[wip]</code> specified in title of pull requests.
+    </label>
+
+    <div role="label">
+        <button type="submit" class="button">Save settings</button>
+        <div id="status" class="status"></div>
+    </div>
+</form>
+
+<script src="options.js" async defer></script>
+
+</body>
+</html>
