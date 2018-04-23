@@ -1,4 +1,26 @@
 # Chrome extensions for github integration
+The following settings are available in this extension:
+1. [Replace tickets numbers in pull requests with links to jiira tasks](#1-replace-tickets-numbers-in-pull-requests-with-links-to-jiira-tasks).
+2. [Add link to jiira task for every comment in pull requests](#2-add-link-to-jiira-task-for-every-comment-in-pull-requests).
+3. [Block merge for pull requests if there is wip or \[wip\] in the title of pull request](#3-block-merge-for-pull-requests-if-there-is-wip-or-wip-in-the-title-of-pull-request).
+
+## Change extension options
+**1. Install the extension**
+
+**2. Go to options**
+Right click on the icon of the extension in the bar.
+
+
+![Default pull request title](docs/images/options-1.png)
+
+
+**3. Set your options**
+Jiira host is required.
+
+
+![Default pull request title](docs/images/options-2.png)
+
+## Functionality
 ### 1. Replace tickets numbers in pull requests with links to jiira tasks
 **1. Create a pull request**
 
