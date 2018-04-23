@@ -8,6 +8,7 @@ The following settings are available in this extension:
 **1. Install the extension**
 
 **2. Go to options**
+
 Right click on the icon of the extension in the bar.
 
 
@@ -15,6 +16,7 @@ Right click on the icon of the extension in the bar.
 
 
 **3. Set your options**
+
 Jiira host is required.
 
 
