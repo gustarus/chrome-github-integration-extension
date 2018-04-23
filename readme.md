@@ -4,7 +4,8 @@ The following settings are available in this extension:
 2. [Add link to jiira task for every comment in pull requests](#2-add-link-to-jiira-task-for-every-comment-in-pull-requests).
 3. [Block merge for pull requests if there is wip or \[wip\] in the title of pull request](#3-block-merge-for-pull-requests-if-there-is-wip-or-wip-in-the-title-of-pull-request).
 
-## Change extension options
+## Cha
+nge extension options
 ### a. Install the extension
 
 ### b. Go to options
