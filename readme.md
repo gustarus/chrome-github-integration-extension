@@ -6,7 +6,7 @@ The following settings are available in this extension:
 
 ## Install the extension
 - [ ] Install from chrome extensions store.
-- [x] [#install-from-an-archive](Install from an archive).
+- [x] [Install from an archive](#install-from-an-archive).
 
 ## Install from an archive
 ### 1. Download an archive from github: (download)[/gustarus/chrome-github-integration-extension/archive/master.zip]
