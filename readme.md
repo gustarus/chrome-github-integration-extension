@@ -1,4 +1,4 @@
-# Chrome extensions for github integration
+# <img src="i.png" height="50px"/> Chrome extensions for github integration&nbsp;&nbsp;![100% vegan](https://img.shields.io/badge/lovely-100%25-ff69b4.svg?longCache=true&style=flat-square) ![100% vegan](https://img.shields.io/badge/vegan-100%25-green.svg?longCache=true&style=flat-square)
 The following settings are available in this extension:
 1. [Replace tickets numbers in pull requests with links to jiira tasks](#1-replace-tickets-numbers-in-pull-requests-with-links-to-jiira-tasks).
 2. [Add link to jiira task for every comment in pull requests](#2-add-link-to-jiira-task-for-every-comment-in-pull-requests).
