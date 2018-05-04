@@ -200,16 +200,31 @@ class PullRequestCommentLink extends Module {
       return;
     }
 
-    let ticket;
-    const match = branch.match(/([A-Z]+-[0-9]+)/);
-    ticket = match ? match[1] : false;
-    if (!ticket) {
-      return;
-    }
+    this.loop(branch, () => {
+      const form = document.querySelector(this.formSelector);
+      return form.querySelector('.js-comment-field');
+    }, (textarea, ticket) => {
+      const link = this.options.hosts.jiira + '/browse/' + ticket;
+      textarea.value = link + "\n" + textarea.value;
+    });
+  }
 
-    const form = document.querySelector(this.formSelector);
-    const textarea = form.querySelector('.js-comment-field');
-    textarea.value = this.options.hosts.jiira + '/browse/' + ticket;
+  loop(string, before, callback) {
+    const regex = /([A-Z]+-[0-9]+)/g;
+    let beforeExecuted = false;
+
+    let match;
+    let beforeResult;
+    do {
+      if (match = regex.exec(string)) {
+        if (!beforeExecuted) {
+          beforeResult = before();
+          beforeExecuted = true;
+        }
+
+        callback(beforeResult, match[0]);
+      }
+    } while (match);
   }
 }
 
