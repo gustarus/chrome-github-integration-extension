@@ -1,11 +1,28 @@
-# Chrome extensions for github integration
+# Chr<img src="docs/images/letter-o.png" height="20px">me extensions for github integration&nbsp;&nbsp;![100% vegan](https://img.shields.io/badge/lovely-100%25-ff69b4.svg?longCache=true&style=flat-square) ![100% vegan](https://img.shields.io/badge/vegan-100%25-green.svg?longCache=true&style=flat-square)
 The following settings are available in this extension:
 1. [Replace tickets numbers in pull requests with links to jiira tasks](#1-replace-tickets-numbers-in-pull-requests-with-links-to-jiira-tasks).
 2. [Add link to jiira task for every comment in pull requests](#2-add-link-to-jiira-task-for-every-comment-in-pull-requests).
 3. [Block merge for pull requests if there is wip or \[wip\] in the title of pull request](#3-block-merge-for-pull-requests-if-there-is-wip-or-wip-in-the-title-of-pull-request).
 
-## Cha
-nge extension options
+## Install the extension
+- [ ] Install from chrome extensions store.
+- [x] [Install from an archive](#install-from-an-archive).
+
+## Install from an archive
+### 1. Download an archive from github: (download)[/gustarus/chrome-github-integration-extension/archive/master.zip]
+Unzip this archive.
+
+
+### 2. Go to `chrome://extensions` tab and enable developer mode
+Or `Menu` --> `More tools` --> `Extensions`.
+The checkbox `developer mode` will be in the top-right corner of the tab.
+
+### 3. Click `Load unpacked`
+And select unziped archive.
+Click `select` and now you have working version of the package!
+
+
+## Change the extension options
 ### a. Install the extension
 
 ### b. Go to options
