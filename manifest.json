@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Chrome github integration extension",
-  "version": "1.0",
+  "name": "Github Jira integration extension",
+  "short_name": "Github Jira",
+  "version": "1.1",
   "author": "Pavel Kondratenko",
   "content_scripts": [
     {
@@ -13,7 +14,7 @@
       ]
     }
   ],
-  "description": "Link tickets numbers in pull requests with jiira, add links to tasks to comment by default and block work-in-progress",
+  "description": "Link tickets numbers in pull requests with jira, add links to tasks to comment by default and block work-in-progress",
   "icons": {
     "16": "i16.png",
     "128": "i128.png"
